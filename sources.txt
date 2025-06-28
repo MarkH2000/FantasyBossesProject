@@ -1,0 +1,5 @@
+src/main/java/com/fantasybosses/FantasyBosses.java
+src/main/java/com/fantasybosses/GoblinBoss.java
+src/main/java/com/fantasybosses/SummonGoblinCommand.java
+src/main/java/com/fantasybosses/XalRathBoss.java
+src/main/java/com/fantasybosses/SummonXalRathCommand.java

@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Goblin Plugin",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-Command",
+        "\"Get-ChildItem -Path src/main/java -Recurse -Filter *.java | ForEach-Object { javac -cp '.;libs/spigot-1.21.1.jar;libs/item-nbt-api-plugin-2.15.0.jar' -d out $_.FullName }\""
+      ],
+      "problemMatcher": ["$javac"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
